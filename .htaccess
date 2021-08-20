@@ -1,0 +1,13 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+# Force www
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+
+# All calls go to SSL
+#RewriteEngine On
+#RewriteCond %{ENV:HTTPS} !=on
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}

@@ -1,0 +1,36 @@
+/*
+Footer style
+*/
+.insta-post{
+    a{
+        display: block;
+        float: left;
+        width:250px;
+        margin: 3px;
+        overflow:hidden;
+        transition: all .3s;
+        -webkit-transition: all .3s;
+        border-radius:5px;
+      color: whitesmoke;
+        &:hover{
+            transform:translateY(-3px);
+            -webkit-transform:translateY(-3px);
+        }
+    }
+}
+.tags-post{
+    a{
+      display: block;
+      padding: 3px 8px;
+      color:#fff;
+      font-size: 13px;
+      text-transform: capitalize;
+      transition: all .3s;
+      -webkit-transition: all .3s;
+        border-bottom:1px solid rgba(#fff,.1);
+        &:hover{
+            transform:translateY(-1px);
+            -webkit-transform:translateY(-1px);
+        }
+    }
+}

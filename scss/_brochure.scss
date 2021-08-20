@@ -1,0 +1,93 @@
+.brochure {
+  .text-white {
+    color: rgba(#000000, 1) !important;
+  }
+  .special-award{
+    border-color: black;
+  }
+
+  .h2, h2{
+   text-decoration: underline;
+    font-size: 25px;
+    padding: 25px;
+  }
+
+  .nouderline {
+    text-decoration: none !important;
+    padding-bottom: 0;
+  }
+
+  .li-light-text {
+    color: black;
+  }
+  .li-dark-text {
+    color: black;
+  }
+
+}
+
+
+
+@media print {
+
+  p, .p {
+   font-size: 22px;
+  }
+
+  h4, .h4 {
+    font-size: 2em;
+    line-height: 1.36842105em;
+  }
+
+  .highlight {
+    font-weight: 600;
+  }
+
+  .text-white {
+    color: rgba(#000000, 1) !important;
+    margin-bottom: 12px;
+  }
+
+  .rules {
+    font-size: 20px;
+    .li, li {
+      font-size: 20px;
+      padding-bottom: 1px;
+      line-height: 22px;
+    }
+  }
+
+  .li, li {
+    font-size: 20px;
+  }
+
+  .event-info span {
+    font-size: 22px;
+  }
+
+  .li-light-text {
+    color: black;
+  }
+  .li-dark-text {
+    color: black;
+  }
+
+
+
+  .special-award{
+    border-color: black;
+  }
+
+  .h2, h2{
+    text-decoration: underline;
+    font-size: 25px;
+    padding: 15px;
+  }
+
+  .nouderline {
+    text-decoration: none !important;
+    padding-bottom: 0;
+  }
+  .break {page-break-after: always;}
+
+}
